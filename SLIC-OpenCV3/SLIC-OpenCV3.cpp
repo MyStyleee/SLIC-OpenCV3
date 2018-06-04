@@ -29,8 +29,6 @@ int main(int argc, char* argv[])
 	//circle(image, Point(100, 100), 1, Scalar(255, 0, 0));
 	imshow("segment", image);
 	waitKey(5);
-	//char file_name[100];
-	//sprintf(file_name, "D:\\GuoQian\\Filters\\SLIC Segment Files\\SLIC-Superpixels-master\\SLIC-self\\SLIC-self\\SLIC-self\\segment.png");
 	imwrite(argv[4], image);
 
 	time = static_cast<double>(getTickCount()) - time;
